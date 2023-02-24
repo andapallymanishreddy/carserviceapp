@@ -1,0 +1,51 @@
+{
+    "carTypes":[
+        {
+            "id":1,
+            "type":"Hatchback"
+        }, 
+         {
+            "id":2,
+            "type":"Sedan"
+        },
+          {
+            "id":3,
+            "type":"Crossover"
+        }, 
+         {
+            "id":4,
+            "type":"Suv"
+        }
+    ],
+    "services":[
+      {
+        "id":1,
+        "serviceType":"Punture",
+        "serviceTitle":"TubelessPunture",
+        "serviceCost":{
+          "Hatchback":100,
+          "Sedan":150,
+          "Crossover":200,
+          "Suv":250
+        }
+      },
+      {
+        "id":2,
+        "serviceType":"Punture",
+        "serviceTitle":"TubePunture",
+        "serviceCost":{
+          "Hatchback":120,
+          "Sedan":170,
+          "Crossover":220,
+          "Suv":270
+        }
+      }
+    ],
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }
